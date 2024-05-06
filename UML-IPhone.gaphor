@@ -664,6 +664,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 </subject>
 </ClassItem>
 <Class id="1b3e9e48-0b22-11ef-8dc3-f350a250162c">
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>App</val>
 </name>
@@ -818,7 +821,7 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>247.0</val>
+<val>249.0</val>
 </width>
 <height>
 <val>244.0</val>
@@ -836,6 +839,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <ref refid="954576f6-0b22-11ef-8b71-f350a250162c"/>
 </reflist>
 </generalization>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>ReprodutorMúsica</val>
 </name>
@@ -890,7 +896,7 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>(1.0, 0.0, 0.0, 1.0, 184.0, 35.0)</val>
 </matrix>
 <points>
-<val>[(-300.73553719008254, 130.1652892561984), (-17.50000000000003, 45.107226152853286)]</val>
+<val>[(-299.73553719008254, 130.1652892561984), (-17.50000000000003, 45.107226152853286)]</val>
 </points>
 <head-connection>
 <ref refid="363c886f-0b22-11ef-8ebd-f350a250162c"/>
@@ -989,6 +995,8 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <ref refid="9f1cc205-0b2c-11ef-95ff-f350a250162c"/>
 <ref refid="a843fd5a-0b2c-11ef-8a98-f350a250162c"/>
 <ref refid="afa42f6c-0b2c-11ef-b421-f350a250162c"/>
+<ref refid="67a1af46-0b41-11ef-b33e-37901cfa137a"/>
+<ref refid="6d35e0d6-0b41-11ef-883d-37901cfa137a"/>
 <ref refid="b4214071-0b2c-11ef-8d80-f350a250162c"/>
 <ref refid="b710e3c9-0b2c-11ef-a962-f350a250162c"/>
 <ref refid="bb44d3f6-0b2c-11ef-b0d4-f350a250162c"/>
@@ -1014,7 +1022,7 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>263.0</val>
 </width>
 <height>
-<val>244.0</val>
+<val>278.0</val>
 </height>
 <diagram>
 <ref refid="585f224c-71b6-11ec-a409-f47b099bf663"/>
@@ -1040,7 +1048,7 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>(1.0, 0.0, 0.0, 1.0, -64.0, 236.0)</val>
 </matrix>
 <points>
-<val>[(-184.51553719008254, 300.2685950413223), (-88.62943345826724, 173.16528925619843)]</val>
+<val>[(-184.51553719008254, 300.2685950413223), (-87.92007229444687, 173.16528925619843)]</val>
 </points>
 <head-connection>
 <ref refid="b5c18ee4-0b22-11ef-bb4b-f350a250162c"/>
@@ -1079,7 +1087,7 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>(1.0, 0.0, 0.0, 1.0, -77.0, 234.0)</val>
 </matrix>
 <points>
-<val>[(62.58469831437259, 295.8925619834715), (18.23905173626582, 175.16528925619843)]</val>
+<val>[(62.58469831437259, 295.8925619834715), (19.708481606114802, 175.16528925619843)]</val>
 </points>
 <head-connection>
 <ref refid="b8c6be01-0b22-11ef-aa78-f350a250162c"/>
@@ -1107,6 +1115,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <ref refid="009a8430-0b23-11ef-bcb5-f350a250162c"/>
 </reflist>
 </generalization>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>Navegador</val>
 </name>
@@ -1115,8 +1126,8 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <ref refid="409b5d70-0b2d-11ef-8547-f350a250162c"/>
 <ref refid="a19405d5-0b2d-11ef-af0e-f350a250162c"/>
 <ref refid="c533ea33-0b2d-11ef-b4d0-f350a250162c"/>
-<ref refid="dd33b308-0b22-11ef-97c3-f350a250162c"/>
 <ref refid="586d5b28-0b23-11ef-8b79-f350a250162c"/>
+<ref refid="dd33b308-0b22-11ef-97c3-f350a250162c"/>
 </reflist>
 </ownedAttribute>
 <ownedOperation>
@@ -1166,6 +1177,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 </subject>
 </ClassItem>
 <Class id="d57741aa-0b22-11ef-b184-f350a250162c">
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>Aba</val>
 </name>
@@ -1299,6 +1313,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <lowerValue>
 <val>1</val>
 </lowerValue>
+<name>
+<val>abasAbertsa</val>
+</name>
 <type>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </type>
@@ -1670,7 +1687,6 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <reflist>
 <ref refid="8ea40e18-0b2a-11ef-8cec-f350a250162c"/>
 <ref refid="938d2d7c-0b2a-11ef-9378-f350a250162c"/>
-<ref refid="96d96360-0b2a-11ef-a979-f350a250162c"/>
 </reflist>
 </ownedOperation>
 <package>
@@ -1690,10 +1706,10 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>116.0</val>
+<val>118.67768595041298</val>
 </width>
 <height>
-<val>176.0</val>
+<val>177.35636608015648</val>
 </height>
 <diagram>
 <ref refid="585f224c-71b6-11ec-a409-f47b099bf663"/>
@@ -2299,7 +2315,7 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>(1.0, 0.0, 0.0, 1.0, 507.6652892561983, -119.56439234197829)</val>
 </matrix>
 <points>
-<val>[(153.33471074380168, 31.42227512905916), (296.6570247933886, 31.324693649017334)]</val>
+<val>[(153.33471074380168, 31.42227512905916), (296.6570247933886, 31.510551771803733)]</val>
 </points>
 <head-connection>
 <ref refid="23968111-0b23-11ef-881a-f350a250162c"/>
@@ -2574,24 +2590,28 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <val>+ edita</val>
 </name>
 </Operation>
-<Operation id="96d96360-0b2a-11ef-a979-f350a250162c">
-<class_>
-<ref refid="2937843c-0b23-11ef-87f9-f350a250162c"/>
-</class_>
-<name>
-<val>remove</val>
-</name>
-</Operation>
 <Property id="16cc6edb-0b2b-11ef-96a8-f350a250162c">
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<lowerValue>
+<val>0</val>
+</lowerValue>
+<lowerValue>
+<val>0</val>
+</lowerValue>
 <name>
 <val>músicaAtual</val>
 </name>
 <typeValue>
 <val>Música</val>
 </typeValue>
+<upperValue>
+<val>1</val>
+</upperValue>
+<upperValue>
+<val>1</val>
+</upperValue>
 </Property>
 <Property id="23a2fa23-0b2b-11ef-ac93-f350a250162c">
 <class_>
@@ -2614,6 +2634,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>toca</val>
 </name>
@@ -2622,6 +2645,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>toca</val>
 </name>
@@ -2646,6 +2672,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>pausa</val>
 </name>
@@ -2654,6 +2683,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>próxima</val>
 </name>
@@ -2662,6 +2694,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>anterior</val>
 </name>
@@ -2670,6 +2705,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>para</val>
 </name>
@@ -2678,6 +2716,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>selecionaMúsica</val>
 </name>
@@ -2702,6 +2743,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>adicionaNaFila</val>
 </name>
@@ -2726,6 +2770,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="363ba6fb-0b22-11ef-9d0f-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>removeDaFila</val>
 </name>
@@ -3131,6 +3178,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>abrePágina</val>
 </name>
@@ -3155,6 +3205,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>recarrega</val>
 </name>
@@ -3163,6 +3216,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>fecha</val>
 </name>
@@ -3171,6 +3227,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>anterior</val>
 </name>
@@ -3179,6 +3238,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>próxima</val>
 </name>
@@ -3187,6 +3249,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>paraHistórico</val>
 </name>
@@ -3214,6 +3279,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>abreEmNovaAba</val>
 </name>
@@ -3258,6 +3326,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="d57741aa-0b22-11ef-b184-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>adicionaFavorito</val>
 </name>
@@ -3302,6 +3373,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="cd1d4dee-0b22-11ef-9bd9-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>fechaAbaAtual</val>
 </name>
@@ -3310,6 +3384,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="cd1d4dee-0b22-11ef-9bd9-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>fechaTudo</val>
 </name>
@@ -3318,6 +3395,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="cd1d4dee-0b22-11ef-9bd9-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>fechaAba</val>
 </name>
@@ -3345,6 +3425,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="cd1d4dee-0b22-11ef-9bd9-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>adicionaFavorito</val>
 </name>
@@ -3372,6 +3455,9 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="cd1d4dee-0b22-11ef-9bd9-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>removeFavorito</val>
 </name>
@@ -3399,8 +3485,65 @@ em classes existentes ou mesmo novas classes com responsabilidades específicas.
 <class_>
 <ref refid="cd1d4dee-0b22-11ef-9bd9-f350a250162c"/>
 </class_>
+<isAbstract>
+<val>1</val>
+</isAbstract>
 <name>
 <val>novaAba</val>
 </name>
 </Operation>
+<Operation id="67a1af46-0b41-11ef-b33e-37901cfa137a">
+<class_>
+<ref refid="b8c5db66-0b22-11ef-b201-f350a250162c"/>
+</class_>
+<name>
+<val>novaPlaylist</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="67abe6b7-0b41-11ef-8417-37901cfa137a"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="67abe6b7-0b41-11ef-8417-37901cfa137a">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>nome</val>
+</name>
+<ownerFormalParam>
+<ref refid="67a1af46-0b41-11ef-b33e-37901cfa137a"/>
+</ownerFormalParam>
+<typeValue>
+<val>String</val>
+</typeValue>
+</Parameter>
+<Operation id="6d35e0d6-0b41-11ef-883d-37901cfa137a">
+<class_>
+<ref refid="b8c5db66-0b22-11ef-b201-f350a250162c"/>
+</class_>
+<name>
+<val>removePlaylist</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="6d392363-0b41-11ef-aa91-37901cfa137a"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="6d392363-0b41-11ef-aa91-37901cfa137a">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>nome</val>
+</name>
+<ownerFormalParam>
+<ref refid="6d35e0d6-0b41-11ef-883d-37901cfa137a"/>
+</ownerFormalParam>
+<typeValue>
+<val>String</val>
+</typeValue>
+</Parameter>
 </gaphor>
